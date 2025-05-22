@@ -1,4 +1,4 @@
-# Unzip service
+# Legacy unzip service
 
 ## Synopsis
 
@@ -15,7 +15,7 @@ Subscribes to a Pulsar topic to get notified of incoming zip files which get ext
 
 1. Clone this repository with:
 
-   `$ git clone https://github.com/viaacode/unzip-service.git`
+   `$ git clone https://github.com/viaacode/legacy-sipin-unzip-service`
 
 2. Change into the new directory.
 
@@ -61,8 +61,8 @@ is < 3. In that case, you probably also want to use `pip3` command.
 
 1. Build the container:
 
-   `$ docker build -t unzip-service .`
+   `$ docker build -t legacy-sipin-unzip-service .`
 
 2. Run the container (with specified `.env` file):
 
-   `$ docker run --env-file .env unzip-service:latest`
+   `$ docker run --env-file .env legacy-sipin-unzip-service:latest`
